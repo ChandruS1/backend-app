@@ -15,7 +15,7 @@ app.use((req, res, next) => {
 })
 
 app.get('/health', (req, res) => {
-  res.json({ status: 'UP' })
+  res.json({ status: 'LIVE FROM CICD' })
 })
 
 let users = []
